@@ -25,10 +25,10 @@
 ├── requirements.txt              # Зависимости проекта
 ├── data/                         # Данные проекта
 │   └── Concrete_Data.xls         # Исходные данные
-├── models/                       # Сохраненные модели
+├── model_data/                   # Сохраненные модели
 │   └── KRR_model.pkl             # Лучшая обученная модель
 ├── graphics/                     # Графики
-└── tests/                        # Тесты
+├── requirements.txt              # Зависимости
 ```
 
 ## Исходные данные
@@ -103,8 +103,7 @@ https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
 ### Установка
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/concrete-strength-prediction.git
-cd concrete-strength-prediction
+git clone https://github.com/TheSunlitMan/Concrete-Compressive-Strenght-Prediction.git
 
 # Установка зависимостей
 pip install -r requirements.txt
